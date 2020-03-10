@@ -12,6 +12,11 @@ it('school grades received 1 Green', function() {
   expect(schoolReport.grade("Amber")).toEqual("Amber: 1")
  })
 
+ it('school grades received 1 Red', function() {
+  schoolReport = new SchoolReport();
+  expect(schoolReport.grade("Red")).toEqual("Red: 1")
+ })
+
 
 
 })
