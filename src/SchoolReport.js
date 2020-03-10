@@ -6,9 +6,15 @@ SchoolReport.prototype.grade = function(grades) {
   } else if(grades == "Amber") {
     return "Amber: 1"
   } else if(grades == "Red") {
-    return "Red: 1"
-  }
+    return "Red: 1" 
+  } else if (grades == "Green, Amber") {
+    return "Green: 1\n Amber: 1"
+  } 
   
+
+   else {
+    return "No results given"
+}
   
-  
+
 }
